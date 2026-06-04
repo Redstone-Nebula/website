@@ -28,8 +28,12 @@ const nav = document.querySelector('nav');
 window.addEventListener('scroll', () => {
   const currentScroll = window.pageYOffset;
   if (currentScroll > 60) {
-    nav.style.borderColor = 'rgba(79, 140, 255, 0.2)';
+    // 滚动时：红石红高亮边框
+    nav.style.borderBottomColor = '#ff3a3a';
+    nav.style.boxShadow = '0 2px 0 #ff8080, 0 6px 0 rgba(255, 58, 58, 0.3)';
   } else {
-    nav.style.borderColor = 'rgba(79, 140, 255, 0.12)';
+    // 顶部时：默认黑色边框
+    nav.style.borderBottomColor = '#0a0a0a';
+    nav.style.boxShadow = '0 2px 0 #5a5a5a, 0 6px 0 rgba(0, 0, 0, 0.5)';
   }
 }, { passive: true });
