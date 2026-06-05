@@ -1,0 +1,20 @@
+{
+  "name": "红石星云 Redstone Nebula",
+  "short_name": "红石星云",
+  "description": "一个充满创意与热情的 Minecraft & 技术社团。",
+  "start_url": "./page/index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0b0b0b",
+  "theme_color": "#c0392b",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "./png/redstone.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
