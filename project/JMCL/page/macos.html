@@ -71,9 +71,9 @@
         <div style="background:var(--bg-card);border:1px solid var(--border-color);border-radius:6px;padding:14px 18px;font-family:var(--font-mono);font-size:13px;color:var(--accent-gold);margin:12px 0">java -version</div>
         <p data-i18n="jmcl.macos.step1.install">如果提示「找不到命令」，请先安装 JDK 17 / 21。推荐来源：</p>
         <ul style="margin:14px 0 14px 20px;color:var(--text-secondary);line-height:1.8">
-          <li><strong>Oracle OpenJDK：</strong> https://jdk.java.net/21/</li>
-          <li><strong>Microsoft OpenJDK：</strong> https://www.microsoft.com/openjdk</li>
-          <li><strong>Homebrew（推荐开发者）：</strong><br>
+          <li><strong data-i18n="jmcl.macos.step1.jdk.oracle">Oracle OpenJDK：</strong> https://jdk.java.net/21/</li>
+          <li><strong data-i18n="jmcl.macos.step1.jdk.microsoft">Microsoft OpenJDK：</strong> https://www.microsoft.com/openjdk</li>
+          <li><strong data-i18n="jmcl.macos.step1.jdk.homebrew">Homebrew（推荐开发者）：</strong><br>
             <code style="background:var(--bg-card);padding:2px 6px;border-radius:4px;font-family:var(--font-mono)">brew install openjdk@21</code>
           </li>
         </ul>
@@ -123,9 +123,9 @@
         <p data-i18n="jmcl.macos.step3.desc">Mac 上的 Java 运行环境默认分配内存偏小，建议根据你的机型调整 JMCL 的启动参数。</p>
       </div>
       <div class="project-description-block">
-        <p data-i18n="jmcl.macos.step3.r1">建议最小内存：<code style="background:var(--bg-card);padding:2px 6px;border-radius:4px;font-family:var(--font-mono)">-Xms512m</code>；最大内存：<code style="background:var(--bg-card);padding:2px 6px;border-radius:4px;font-family:var(--font-mono)">-Xmx4g</code> 或以上。</p>
+        <p data-i18n-html="jmcl.macos.step3.r1">建议最小内存：<code style="background:var(--bg-card);padding:2px 6px;border-radius:4px;font-family:var(--font-mono)">-Xms512m</code>；最大内存：<code style="background:var(--bg-card);padding:2px 6px;border-radius:4px;font-family:var(--font-mono)">-Xmx4g</code> 或以上。</p>
         <p data-i18n="jmcl.macos.step3.r2">在「终端」中使用如下方式可更可控地启动：</p>
-        <div style="background:var(--bg-card);border:1px solid var(--border-color);border-radius:6px;padding:14px 18px;font-family:var(--font-mono);font-size:13px;color:var(--accent-gold);margin:12px 0">cd 你存放 JAR 文件的文件夹
+        <div data-i18n-html="jmcl.macos.step3.codeblock" style="background:var(--bg-card);border:1px solid var(--border-color);border-radius:6px;padding:14px 18px;font-family:var(--font-mono);font-size:13px;color:var(--accent-gold);margin:12px 0">cd 你存放 JAR 文件的文件夹
 java -Xms512m -Xmx4g -jar JVM-MCL-DEV2026.2.0.jar</div>
         <p style="font-size:13px;color:var(--text-muted);margin-top:6px" data-i18n="jmcl.macos.step3.tip">如果是 Mac 8 GB 入门机型，可把 -Xmx 降至 3g；如果是 16 GB 及以上，可放心使用 4g-8g。</p>
       </div>
@@ -161,7 +161,7 @@ java -Xms512m -Xmx4g -jar JVM-MCL-DEV2026.2.0.jar</div>
         <ol style="margin:6px 0 10px 20px;color:var(--text-secondary);line-height:1.9">
           <li data-i18n="jmcl.macos.step5.check1">打开终端，使用带日志的方式启动 JMCL，查看报错：</li>
         </ol>
-        <div style="background:var(--bg-card);border:1px solid var(--border-color);border-radius:6px;padding:14px 18px;font-family:var(--font-mono);font-size:13px;color:var(--accent-gold);margin:4px 0 12px">cd 你存放 JAR 文件的文件夹
+        <div data-i18n-html="jmcl.macos.step5.codeblock" style="background:var(--bg-card);border:1px solid var(--border-color);border-radius:6px;padding:14px 18px;font-family:var(--font-mono);font-size:13px;color:var(--accent-gold);margin:4px 0 12px">cd 你存放 JAR 文件的文件夹
 java -jar JVM-MCL-DEV2026.2.0.jar 2>&1 | tee jmcl-log.txt</div>
         <ol start="2" style="margin:6px 0 10px 20px;color:var(--text-secondary);line-height:1.9">
           <li data-i18n="jmcl.macos.step5.check2">截屏报错信息，或在当前文件夹下找到 jmcl-log.txt 文件。</li>
