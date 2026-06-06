@@ -1460,3 +1460,56 @@ footer .footer-copy {
     justify-content: center;
   }
 }
+
+/* =========================================================
+ * 多语言切换器 / Language switcher
+ * ========================================================= */
+.lang-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: 16px;
+  padding: 4px 8px;
+  border: 1px solid rgba(192, 57, 43, 0.45);
+  border-radius: 4px;
+  background: rgba(192, 57, 43, 0.08);
+  font-size: 13px;
+  line-height: 1;
+  user-select: none;
+}
+
+.lang-switch-btn {
+  background: transparent;
+  color: #cfcfcf;
+  border: none;
+  padding: 2px 6px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 12.5px;
+  font-family: inherit;
+  transition: background 0.2s, color 0.2s;
+}
+
+.lang-switch-btn:hover {
+  background: rgba(192, 57, 43, 0.18);
+  color: #f1d38a;
+}
+
+.lang-switch-btn.active {
+  background: rgba(192, 57, 43, 0.35);
+  color: #f1d38a;
+  font-weight: 600;
+}
+
+.lang-switch-sep {
+  color: rgba(207, 207, 207, 0.55);
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  .lang-switch {
+    margin-left: 0;
+    margin-top: 8px;
+    align-self: flex-start;
+  }
+}
