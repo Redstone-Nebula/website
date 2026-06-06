@@ -123,7 +123,8 @@
       "jmcl.macos.step2.sec": "/ 02",
       "jmcl.macos.step2.tip": "小提示：如果仍然提示「无法打开」，可尝试在终端中执行一次：",
       "jmcl.macos.step2.title": "首次运行提示「无法打开，因为无法验证开发者」",
-      "jmcl.macos.step3.codeblock": "cd 你存放 JAR 文件的文件夹\njava -Xms512m -Xmx4g -jar JVM-MCL-DEV2026.2.0.jar",
+      "jmcl.macos.step3.codeblock": "cd 你存放 JAR 文件的文件夹
+java -Xms512m -Xmx4g -jar JVM-MCL-DEV2026.2.0.jar",
       "jmcl.macos.step3.desc": "Mac 上的 Java 运行环境默认分配内存偏小，建议根据你的机型调整 JMCL 的启动参数。",
       "jmcl.macos.step3.r1": "建议最小内存：<code style=\"background:var(--bg-card);padding:2px 6px;border-radius:4px;font-family:var(--font-mono)\">-Xms512m</code>；最大内存：<code style=\"background:var(--bg-card);padding:2px 6px;border-radius:4px;font-family:var(--font-mono)\">-Xmx4g</code> 或以上。",
       "jmcl.macos.step3.r2": "在「终端」中使用如下方式可更可控地启动：",
@@ -139,7 +140,8 @@
       "jmcl.macos.step5.check1": "打开终端，使用带日志的方式启动 JMCL，查看报错：",
       "jmcl.macos.step5.check2": "截屏报错信息，或在当前文件夹下找到 jmcl-log.txt 文件。",
       "jmcl.macos.step5.check3": "加入下方交流群，带上你的 macOS 版本、机器型号（M 系列 / Intel）、Java 版本、以及 jmcl-log.txt，我们会快速帮你定位。",
-      "jmcl.macos.step5.codeblock": "cd 你存放 JAR 文件的文件夹\njava -jar JVM-MCL-DEV2026.2.0.jar 2>&1 | tee jmcl-log.txt",
+      "jmcl.macos.step5.codeblock": "cd 你存放 JAR 文件的文件夹
+java -jar JVM-MCL-DEV2026.2.0.jar 2>&1 | tee jmcl-log.txt",
       "jmcl.macos.step5.desc": "如果 JMCL 启动后立即退出，很可能是 Java 版本、权限或系统本身的原因。按以下步骤定位：",
       "jmcl.macos.step5.fallback": "常见的触发原因：",
       "jmcl.macos.step5.reason1": "Java 版本过低（低于 Java 17）。",
@@ -360,7 +362,8 @@
       "jmcl.macos.step2.sec": "/ 02",
       "jmcl.macos.step2.tip": "Tip: If it still says \"cannot be opened\", try running it once in Terminal with:",
       "jmcl.macos.step2.title": "\"Cannot be opened because the developer cannot be verified\"",
-      "jmcl.macos.step3.codeblock": "cd folder-where-you-store-the-JAR\njava -Xms512m -Xmx4g -jar JVM-MCL-DEV2026.2.0.jar",
+      "jmcl.macos.step3.codeblock": "cd folder-where-you-store-the-JAR
+java -Xms512m -Xmx4g -jar JVM-MCL-DEV2026.2.0.jar",
       "jmcl.macos.step3.desc": "The default memory allocation of Java on Mac is fairly small. We recommend adjusting JMCL's launch parameters based on your machine.",
       "jmcl.macos.step3.r1": "Recommended minimum: <code style=\"background:var(--bg-card);padding:2px 6px;border-radius:4px;font-family:var(--font-mono)\">-Xms512m</code>; maximum: <code style=\"background:var(--bg-card);padding:2px 6px;border-radius:4px;font-family:var(--font-mono)\">-Xmx4g</code> or higher.",
       "jmcl.macos.step3.r2": "For more control, launch it from Terminal like this:",
@@ -376,7 +379,8 @@
       "jmcl.macos.step5.check1": "Open Terminal and launch JMCL with logging enabled to see the error:",
       "jmcl.macos.step5.check2": "Screenshot the error, or locate jmcl-log.txt in the current folder.",
       "jmcl.macos.step5.check3": "Join our group chat (link below) and bring your macOS version, machine model (M-series / Intel), Java version, and jmcl-log.txt — we will help you locate the issue quickly.",
-      "jmcl.macos.step5.codeblock": "cd folder-where-you-store-the-JAR\njava -jar JVM-MCL-DEV2026.2.0.jar 2>&1 | tee jmcl-log.txt",
+      "jmcl.macos.step5.codeblock": "cd folder-where-you-store-the-JAR
+java -jar JVM-MCL-DEV2026.2.0.jar 2>&1 | tee jmcl-log.txt",
       "jmcl.macos.step5.desc": "If JMCL quits right after launch, it's likely a Java version issue, a permission issue, or a system-specific issue. Follow these steps to diagnose:",
       "jmcl.macos.step5.fallback": "Common causes:",
       "jmcl.macos.step5.reason1": "Java version is too old (below Java 17).",
