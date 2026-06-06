@@ -18,6 +18,10 @@
 
   function detectLang() {
     try {
+      var m = location.search.match(/[?&]lang=([a-z]{2})/i);
+      if (m && SUPPORTED.indexOf(m[1].toLowerCase()) !== -1) return m[1].toLowerCase();
+    } catch (e) {}
+    try {
       var saved = localStorage.getItem(STORAGE_KEY);
       if (saved && SUPPORTED.indexOf(saved) !== -1) return saved;
     } catch (e) {}
