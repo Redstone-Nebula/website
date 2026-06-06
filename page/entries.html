@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>常用入口 — 红石星云</title>
+  <title data-i18n-title="entries.title">常用入口 — 红石星云</title>
   <meta name="theme-color" content="#c0392b">
   <link rel="manifest" href="../manifest.webmanifest">
   <link rel="icon" type="image/png" href="../png/redstone.png">
@@ -22,7 +22,7 @@
     <div class="nav-inner">
       <a href="index.html" class="nav-logo">
         <img class="nav-logo-icon" src="../png/redstone.png" alt="RSN">
-        红石星云
+        <span data-i18n="brand">红石星云</span>
       </a>
       <button class="nav-toggle" aria-label="菜单">
         <span></span>
@@ -30,10 +30,10 @@
         <span></span>
       </button>
       <ul class="nav-links">
-        <li><a href="index.html">首页</a></li>
-        <li><a href="projects.html">核心项目</a></li>
-        <li><a href="entries.html" class="active">常用入口</a></li>
-        <li><a href="about.html">关于我们</a></li>
+        <li><a href="index.html" data-i18n="nav.home">首页</a></li>
+        <li><a href="projects.html" data-i18n="nav.projects">核心项目</a></li>
+        <li><a href="entries.html" class="active" data-i18n="nav.entries">常用入口</a></li>
+        <li><a href="about.html" data-i18n="nav.about">关于我们</a></li>
       </ul>
     </div>
   </nav>
@@ -41,19 +41,19 @@
   <div class="page-content">
     <section id="entries">
       <div class="section-header fade-in">
-        <span class="section-number">/ 02</span>
-        <h2>常用入口</h2>
-        <p>文档、发布、反馈和社区入口</p>
+        <span class="section-number" data-i18n="entries.secNumber">/ 02</span>
+        <h2 data-i18n="entries.title">常用入口</h2>
+        <p data-i18n="entries.subtitle">文档、发布、反馈和社区入口</p>
       </div>
       <div class="entries-grid">
         <a href="#" class="entry-card fade-in">
-          <h4>红石星云 Docs</h4>
-          <p>查看社团文档、项目指南和资源索引。</p>
+          <h4 data-i18n="entries.docs.title">红石星云 Docs</h4>
+          <p data-i18n="entries.docs.desc">查看社团文档、项目指南和资源索引。</p>
           <span class="entry-arrow">&rarr;</span>
         </a>
         <a href="https://open-code-studio.github.io/website/page/index.html" target="_blank" class="entry-card fade-in fade-in-delay-1">
-          <h4>Open-code-Studio (OCS)</h4>
-          <p>开源协作组织站 — JMCL 等项目的协作开发与发布平台。</p>
+          <h4 data-i18n="entries.ocs.title">Open-code-Studio (OCS)</h4>
+          <p data-i18n="entries.ocs.desc">开源协作组织站 — JMCL 等项目的协作开发与发布平台。</p>
           <span class="entry-arrow">&rarr;</span>
         </a>
       </div>
@@ -64,19 +64,21 @@
     <div class="footer-inner">
       <a href="index.html" class="footer-brand">
         <img class="footer-brand-icon" src="../png/redstone.png" alt="RSN">
-        红石星云
+        <span data-i18n="brand">红石星云</span>
       </a>
-      <p class="footer-tagline">一个充满创意与热情的 Minecraft & 技术社团。</p>  
+      <p class="footer-tagline" data-i18n="footer.tagline">一个充满创意与热情的 Minecraft & 技术社团。</p>
       <div class="footer-links">
-        <a href="https://github.com/Redstone-Nebula" target="_blank">GitHub</a>
-        <a href="about.html">关于我们</a>
-        <a href="https://qr.dingtalk.com/action/joingroup?code=v1,k1,KlQMYlUzoqLhQNC77XGTSe56HIx+OQyY2kmQpiaFEFmdR7ksupjDEA==&amp;_dt_no_comment=1&amp;origin=11" target="_blank">加入交流群</a>
+        <a href="https://github.com/Redstone-Nebula" target="_blank" data-i18n="footer.github">GitHub</a>
+        <a href="about.html" data-i18n="footer.about">关于我们</a>
+        <a href="https://qr.dingtalk.com/action/joingroup?code=v1,k1,KlQMYlUzoqLhQNC77XGTSe56HIx+OQyY2kmQpiaFEFmdR7ksupjDEA==&amp;_dt_no_comment=1&amp;origin=11" target="_blank" data-i18n="footer.joinGroup">加入交流群</a>
       </div>
       <div class="footer-divider"></div>
-      <p class="footer-copy">&copy; 2026 红石星云. All rights reserved.</p>
+      <p class="footer-copy" data-i18n="footer.copyright">&copy; 2026 红石星云. All rights reserved.</p>
     </div>
   </footer>
 
   <script src="../js/script.js"></script>
+  <script src="../js/i18n-dict.js"></script>
+  <script src="../js/i18n.js"></script>
 </body>
 </html>

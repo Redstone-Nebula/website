@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>JMCL 下载 — 红石星云</title>
+  <title data-i18n-title="jmcl.downloadTitle">JMCL 下载 — 红石星云</title>
   <meta name="theme-color" content="#c0392b">
   <link rel="manifest" href="../../manifest.webmanifest">
   <link rel="icon" type="image/png" href="../../png/redstone.png">
@@ -22,7 +22,7 @@
     <div class="nav-inner">
       <a href="../../../page/index.html" class="nav-logo">
         <img class="nav-logo-icon" src="../png/redstone.png" alt="RSN">
-        红石星云
+        <span data-i18n="brand">红石星云</span>
       </a>
       <button class="nav-toggle" aria-label="菜单">
         <span></span>
@@ -30,20 +30,20 @@
         <span></span>
       </button>
       <ul class="nav-links">
-        <li><a href="../../../page/index.html">首页</a></li>
-        <li><a href="../../../page/projects.html" class="active">核心项目</a></li>
-        <li><a href="../../../page/entries.html">常用入口</a></li>
-        <li><a href="../../../page/about.html">关于我们</a></li>
+        <li><a href="../../../page/index.html" data-i18n="nav.home">首页</a></li>
+        <li><a href="../../../page/projects.html" class="active" data-i18n="nav.projects">核心项目</a></li>
+        <li><a href="../../../page/entries.html" data-i18n="nav.entries">常用入口</a></li>
+        <li><a href="../../../page/about.html" data-i18n="nav.about">关于我们</a></li>
       </ul>
     </div>
   </nav>
 
   <div class="project-subnav">
     <div class="project-subnav-inner">
-      <a href="index.html">项目主页</a>
-      <a href="intro.html">详细介绍</a>
-      <a href="download.html" class="active">下载</a>
-      <a href="macos.html">macOS 技巧</a>
+      <a href="index.html" data-i18n="jmcl.subnav.home">项目主页</a>
+      <a href="intro.html" data-i18n="jmcl.subnav.intro">详细介绍</a>
+      <a href="download.html" class="active" data-i18n="jmcl.subnav.download">下载</a>
+      <a href="macos.html" data-i18n="jmcl.subnav.macos">macOS 技巧</a>
     </div>
   </div>
 
@@ -51,31 +51,31 @@
     <div class="project-hero-inner">
       <div class="project-hero-badge">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-        下载
+        <span data-i18n="jmcl.subnav.download">下载</span>
       </div>
-      <h1>下载 JMCL</h1>
-      <p class="project-subtitle">下载 JMCL 的 JAR 版本，支持 Windows、macOS、Linux（需预先安装 Java 17 及以上）</p>
+      <h1 data-i18n="jmcl.downloadTitle">下载 JMCL</h1>
+      <p class="project-subtitle" data-i18n="jmcl.downloadSubtitle">下载 JMCL 的 JAR 版本，支持 Windows、macOS、Linux（需预先安装 Java 17 及以上）</p>
     </div>
   </div>
 
   <div class="project-section fade-in" style="padding-top:0">
     <div class="project-section-inner">
       <div class="project-section-header">
-        <span class="section-number">/ 最新版本</span>
-        <h2>DEV2026.2.0</h2>
-        <p>2026 年 6 月发布 | 开发预览版，提供统一 JAR 跨平台包</p>
+        <span class="section-number" data-i18n="jmcl.release.sec">/ 最新版本</span>
+        <h2 data-i18n="jmcl.release.version">DEV2026.2.0</h2>
+        <p data-i18n="jmcl.release.desc">2026 年 6 月发布 | 开发预览版，提供统一 JAR 跨平台包</p>
       </div>
       <div class="features-grid" style="grid-template-columns:1fr">
         <div class="feature-card fade-in" style="text-align:center;padding:36px 28px;max-width:520px;margin:0 auto">
           <div class="feature-card-icon" style="margin:0 auto 16px">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
           </div>
-          <h4>JAR (跨平台)</h4>
+          <h4 data-i18n="jmcl.release.jarTitle">JAR (跨平台)</h4>
           <div style="background:var(--bg-card);border:1px solid var(--border-color);border-radius:8px;padding:12px 16px;margin:16px 0;font-family:var(--font-mono);font-size:13px;color:var(--accent-gold);text-align:left;word-break:break-all">JVM-MCL-DEV2026.2.0.jar</div>
-          <p style="font-size:12px;color:var(--text-muted)">适用于 Windows、macOS、Linux，需预先安装 Java 17 及以上</p>
+          <p style="font-size:12px;color:var(--text-muted)" data-i18n="jmcl.release.jarDesc">适用于 Windows、macOS、Linux，需预先安装 Java 17 及以上</p>
           <a href="https://github.com/Open-code-Studio/JMCL/releases/download/DEV2026.2.0/JVM-MCL-DEV2026.2.0.jar" class="btn btn-primary" style="font-size:13px;padding:10px 24px;margin-top:12px">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-            下载 JAR
+            <span data-i18n="jmcl.release.dlBtn">下载 JAR</span>
           </a>
         </div>
       </div>
@@ -85,15 +85,15 @@
   <div class="project-section fade-in" style="padding-top:0">
     <div class="project-section-inner">
       <div class="project-section-header">
-        <span class="section-number">/ 运行环境</span>
-        <h2>系统要求</h2>
+        <span class="section-number" data-i18n="jmcl.env.sec">/ 运行环境</span>
+        <h2 data-i18n="jmcl.env.title">系统要求</h2>
       </div>
       <div class="project-description-block">
-        <p><strong>Java 版本：</strong>Java 17 及以上（推荐使用 Java 21）</p>
-        <p style="margin-top:12px"><strong>操作系统：</strong>Windows 10 / 11、macOS 12+、主流 Linux 发行版</p>
-        <p style="margin-top:12px"><strong>内存：</strong>建议分配 4 GB 以上内存以获得流畅的游戏体验</p>
-        <p style="margin-top:12px"><strong>硬盘空间：</strong>启动器占用约 50 MB，每个游戏版本需要额外 200 MB - 2 GB 空间</p>
-        <p style="margin-top:12px"><strong>网络：</strong>首次启动需联网下载游戏资源，后续可离线使用</p>
+        <p><strong data-i18n="jmcl.env.javaLabel">Java 版本：</strong><span data-i18n="jmcl.env.javaDesc">Java 17 及以上（推荐使用 Java 21）</span></p>
+        <p style="margin-top:12px"><strong data-i18n="jmcl.env.osLabel">操作系统：</strong><span data-i18n="jmcl.env.osDesc">Windows 10 / 11、macOS 12+、主流 Linux 发行版</span></p>
+        <p style="margin-top:12px"><strong data-i18n="jmcl.env.ramLabel">内存：</strong><span data-i18n="jmcl.env.ramDesc">建议分配 4 GB 以上内存以获得流畅的游戏体验</span></p>
+        <p style="margin-top:12px"><strong data-i18n="jmcl.env.diskLabel">硬盘空间：</strong><span data-i18n="jmcl.env.diskDesc">启动器占用约 50 MB，每个游戏版本需要额外 200 MB - 2 GB 空间</span></p>
+        <p style="margin-top:12px"><strong data-i18n="jmcl.env.netLabel">网络：</strong><span data-i18n="jmcl.env.netDesc">首次启动需联网下载游戏资源，后续可离线使用</span></p>
       </div>
     </div>
   </div>
@@ -101,15 +101,15 @@
   <div class="project-divider"></div>
 
   <div class="project-links-section fade-in">
-    <h2>获取帮助</h2>
+    <h2 data-i18n="jmcl.downloadLinks.title">获取帮助</h2>
     <div class="project-links-grid">
       <a href="intro.html" class="project-link-btn secondary">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
-        查看介绍
+        <span data-i18n="jmcl.subnav.intro">查看介绍</span>
       </a>
       <a href="https://qr.dingtalk.com/action/joingroup?code=v1,k1,oKUAbB0qsuDhQNC77XGTSe56HIx+OQyYKzOWwFw1OL2dR7ksupjDEA==&amp;_dt_no_comment=1&amp;origin=11" target="_blank" class="project-link-btn secondary">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
-        反馈问题
+        <span data-i18n="jmcl.links.feedback">反馈问题</span>
       </a>
     </div>
   </div>
@@ -118,19 +118,21 @@
     <div class="footer-inner">
       <a href="../../../page/index.html" class="footer-brand">
         <img class="footer-brand-icon" src="../png/redstone.png" alt="RSN">
-        红石星云
+        <span data-i18n="brand">红石星云</span>
       </a>
-      <p class="footer-tagline">一个充满创意与热情的 Minecraft &amp; 技术社团。</p>
+      <p class="footer-tagline" data-i18n="footer.tagline">一个充满创意与热情的 Minecraft & 技术社团。</p>
       <div class="footer-links">
-        <a href="https://github.com/Redstone-Nebula" target="_blank">GitHub</a>
-        <a href="../../../page/about.html">关于我们</a>
-        <a href="https://qr.dingtalk.com/action/joingroup?code=v1,k1,oKUAbB0qsuDhQNC77XGTSe56HIx+OQyYKzOWwFw1OL2dR7ksupjDEA==&amp;_dt_no_comment=1&amp;origin=11" target="_blank">加入交流群</a>
+        <a href="https://github.com/Redstone-Nebula" target="_blank" data-i18n="footer.github">GitHub</a>
+        <a href="../../../page/about.html" data-i18n="footer.about">关于我们</a>
+        <a href="https://qr.dingtalk.com/action/joingroup?code=v1,k1,oKUAbB0qsuDhQNC77XGTSe56HIx+OQyYKzOWwFw1OL2dR7ksupjDEA==&amp;_dt_no_comment=1&amp;origin=11" target="_blank" data-i18n="footer.joinGroup">加入交流群</a>
       </div>
       <div class="footer-divider"></div>
-      <p class="footer-copy">&copy; 2026 红石星云. All rights reserved.</p>
+      <p class="footer-copy" data-i18n="footer.copyright">&copy; 2026 红石星云. All rights reserved.</p>
     </div>
   </footer>
 
   <script src="../js/script.js"></script>
+  <script src="../js/i18n-dict.js"></script>
+  <script src="../js/i18n.js"></script>
 </body>
 </html>

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>关于我们 — 红石星云</title>
+  <title data-i18n-title="about.title">关于我们 — 红石星云</title>
   <meta name="theme-color" content="#c0392b">
   <link rel="manifest" href="../manifest.webmanifest">
   <link rel="icon" type="image/png" href="../png/redstone.png">
@@ -22,7 +22,7 @@
     <div class="nav-inner">
       <a href="index.html" class="nav-logo">
         <img class="nav-logo-icon" src="../png/redstone.png" alt="RSN">
-        红石星云
+        <span data-i18n="brand">红石星云</span>
       </a>
       <button class="nav-toggle" aria-label="菜单">
         <span></span>
@@ -30,10 +30,10 @@
         <span></span>
       </button>
       <ul class="nav-links">
-        <li><a href="index.html">首页</a></li>
-        <li><a href="projects.html">核心项目</a></li>
-        <li><a href="entries.html">常用入口</a></li>
-        <li><a href="about.html" class="active">关于我们</a></li>
+        <li><a href="index.html" data-i18n="nav.home">首页</a></li>
+        <li><a href="projects.html" data-i18n="nav.projects">核心项目</a></li>
+        <li><a href="entries.html" data-i18n="nav.entries">常用入口</a></li>
+        <li><a href="about.html" class="active" data-i18n="nav.about">关于我们</a></li>
       </ul>
     </div>
   </nav>
@@ -41,22 +41,22 @@
   <div class="page-content">
     <section id="about">
       <div class="section-header fade-in">
-        <span class="section-number">/ 03</span>
-        <h2>关于我们</h2>
-        <p>一群热爱技术与创意的学生社团，探索红石与代码的无限可能。</p>
+        <span class="section-number" data-i18n="about.secNumber">/ 03</span>
+        <h2 data-i18n="about.title">关于我们</h2>
+        <p data-i18n="about.subtitle">一群热爱技术与创意的学生社团，探索红石与代码的无限可能。</p>
       </div>
       <div class="about-content fade-in">
-        <p>
+        <p data-i18n="about.body">
           红石星云 (Redstone Nebula) 是一个充满创意与热情的技术社团。
           我们是一群热爱技术的学生，热衷于探索 Minecraft 红石科技、开发各类实用工具
           以及创造有趣的数字内容。无论是红石机械、应用软件还是游戏地图，
           我们始终以创意和品质为追求，享受技术带来的纯粹乐趣。
         </p>
         <div class="about-contact">
-          <span class="contact-label">联系方式</span>
+          <span class="contact-label" data-i18n="about.contactLabel">联系方式</span>
           <a href="https://qr.dingtalk.com/action/joingroup?code=v1,k1,mVtpFxlaA5ThQNC77XGTSe56HIx+OQyYlkB2y9V4MtydR7ksupjDEA==&_dt_no_comment=1&origin=11">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
-            加入社区交流群
+            <span data-i18n="about.joinGroup">加入社区交流群</span>
           </a>
         </div>
       </div>
@@ -67,19 +67,21 @@
     <div class="footer-inner">
       <a href="index.html" class="footer-brand">
         <img class="footer-brand-icon" src="../png/redstone.png" alt="RSN">
-        红石星云
+        <span data-i18n="brand">红石星云</span>
       </a>
-      <p class="footer-tagline">一个充满创意与热情的 Minecraft & 技术社团。</p>
+      <p class="footer-tagline" data-i18n="footer.tagline">一个充满创意与热情的 Minecraft & 技术社团。</p>
       <div class="footer-links">
-        <a href="https://github.com/Redstone-Nebula" target="_blank">GitHub</a>
-        <a href="about.html">关于我们</a>
-        <a href="https://qr.dingtalk.com/action/joingroup?code=v1,k1,KlQMYlUzoqLhQNC77XGTSe56HIx+OQyY2kmQpiaFEFmdR7ksupjDEA==&amp;_dt_no_comment=1&amp;origin=11" target="_blank">加入交流群</a>
+        <a href="https://github.com/Redstone-Nebula" target="_blank" data-i18n="footer.github">GitHub</a>
+        <a href="about.html" data-i18n="footer.about">关于我们</a>
+        <a href="https://qr.dingtalk.com/action/joingroup?code=v1,k1,KlQMYlUzoqLhQNC77XGTSe56HIx+OQyY2kmQpiaFEFmdR7ksupjDEA==&amp;_dt_no_comment=1&amp;origin=11" target="_blank" data-i18n="footer.joinGroup">加入交流群</a>
       </div>
       <div class="footer-divider"></div>
-      <p class="footer-copy">&copy; 2026 红石星云. All rights reserved.</p>
+      <p class="footer-copy" data-i18n="footer.copyright">&copy; 2026 红石星云. All rights reserved.</p>
     </div>
   </footer>
 
   <script src="../js/script.js"></script>
+  <script src="../js/i18n-dict.js"></script>
+  <script src="../js/i18n.js"></script>
 </body>
 </html>

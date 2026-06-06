@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>核心项目 — 红石星云</title>
+  <title data-i18n-title="projects.title">核心项目 — 红石星云</title>
   <meta name="theme-color" content="#c0392b">
   <link rel="manifest" href="../manifest.webmanifest">
   <link rel="icon" type="image/png" href="../png/redstone.png">
@@ -30,10 +30,10 @@
         <span></span>
       </button>
       <ul class="nav-links">
-        <li><a href="index.html">首页</a></li>
-        <li><a href="projects.html" class="active">核心项目</a></li>
-        <li><a href="entries.html">常用入口</a></li>
-        <li><a href="about.html">关于我们</a></li>
+        <li><a href="index.html" data-i18n="nav.home">首页</a></li>
+        <li><a href="projects.html" class="active" data-i18n="nav.projects">核心项目</a></li>
+        <li><a href="entries.html" data-i18n="nav.entries">常用入口</a></li>
+        <li><a href="about.html" data-i18n="nav.about">关于我们</a></li>
       </ul>
     </div>
   </nav>
@@ -41,45 +41,45 @@
   <div class="page-content">
     <section id="projects">
       <div class="section-header fade-in">
-        <span class="section-number">/ 01</span>
-        <h2>核心项目</h2>
-        <p>红石星云正在开发和维护的项目</p>
+        <span class="section-number" data-i18n="projects.secNumber">/ 01</span>
+        <h2 data-i18n="projects.title">核心项目</h2>
+        <p data-i18n="projects.subtitle">红石星云正在开发和维护的项目</p>
       </div>
       <div class="projects-grid">
         <div class="project-card fade-in fade-in-delay-1">
           <div class="project-card-header">
-            <h3>异行者:受困(MC地图)</h3>
+            <h3 data-i18n="projects.yxz.title">异行者:受困(MC地图)</h3>
             <span class="project-status status-active">
               <span style="width:5px;height:5px;background:currentColor;border-radius:50%;display:inline-block;"></span>
-              持续更新
+              <span data-i18n="projects.yxz.status">持续更新</span>
             </span>
           </div>
-          <p>红石星云出品的 Minecraft 恐怖地图。深入诡异的实验室，破解机关谜题，揭开受困者背后的真相。</p>
+          <p data-i18n="projects.yxz.desc">红石星云出品的 Minecraft 恐怖地图。深入诡异的实验室，破解机关谜题，揭开受困者背后的真相。</p>
           <div class="project-card-links">
-            <a href="../project/yixingzhe1/page/index.html" class="project-link project-link-primary">项目页</a>
-            <a href="../project/yixingzhe1/page/download.html" class="project-link project-link-secondary">下载</a>
-            <a href="https://github.com/Redstone-Nebula" class="project-link project-link-secondary">GitHub</a>
+            <a href="../project/yixingzhe1/page/index.html" class="project-link project-link-primary" data-i18n="projects.yxz.pageBtn">项目页</a>
+            <a href="../project/yixingzhe1/page/download.html" class="project-link project-link-secondary" data-i18n="projects.yxz.dlBtn">下载</a>
+            <a href="https://github.com/Redstone-Nebula" class="project-link project-link-secondary" data-i18n="projects.yxz.ghBtn">GitHub</a>
           </div>
         </div>
         <div class="project-card fade-in fade-in-delay-2">
           <div class="project-card-header">
-            <h3>JMCL (MC启动器)</h3>
+            <h3 data-i18n="projects.jmcl.title">JMCL (MC启动器)</h3>
             <div style="display:flex;gap:6px;align-items:center;flex-wrap:wrap;justify-content:flex-end">
               <span class="project-status status-maintain">
                 <span style="width:5px;height:5px;background:currentColor;border-radius:50%;display:inline-block;"></span>
-                联动项目
+                <span data-i18n="projects.jmcl.statusLinked">联动项目</span>
               </span>
               <span class="project-status status-active">
                 <span style="width:5px;height:5px;background:currentColor;border-radius:50%;display:inline-block;"></span>
-                持续更新
+                <span data-i18n="projects.jmcl.statusActive">持续更新</span>
               </span>
             </div>
           </div>
-          <p>红石星云出品的轻量级 Minecraft Java 启动器。支持多版本管理、Mod 整合与多账户登录，跨平台、开源、可定制。</p>
+          <p data-i18n="projects.jmcl.desc">红石星云出品的轻量级 Minecraft Java 启动器。支持多版本管理、Mod 整合与多账户登录，跨平台、开源、可定制。</p>
           <div class="project-card-links">
-            <a href="../project/JMCL/page/index.html" class="project-link project-link-primary">项目页</a>
-            <a href="../project/JMCL/page/download.html" class="project-link project-link-secondary">下载</a>
-            <a href="https://github.com/Redstone-Nebula" class="project-link project-link-secondary">GitHub</a>
+            <a href="../project/JMCL/page/index.html" class="project-link project-link-primary" data-i18n="projects.jmcl.pageBtn">项目页</a>
+            <a href="../project/JMCL/page/download.html" class="project-link project-link-secondary" data-i18n="projects.jmcl.dlBtn">下载</a>
+            <a href="https://github.com/Redstone-Nebula" class="project-link project-link-secondary" data-i18n="projects.jmcl.ghBtn">GitHub</a>
           </div>
         </div>
       </div>
@@ -90,19 +90,21 @@
     <div class="footer-inner">
       <a href="index.html" class="footer-brand">
         <img class="footer-brand-icon" src="../png/redstone.png" alt="RSN">
-        红石星云
+        <span data-i18n="brand">红石星云</span>
       </a>
-      <p class="footer-tagline">一个充满创意与热情的 Minecraft & 技术社团。</p>  
+      <p class="footer-tagline" data-i18n="footer.tagline">一个充满创意与热情的 Minecraft & 技术社团。</p>
       <div class="footer-links">
-        <a href="https://github.com/Redstone-Nebula" target="_blank">GitHub</a>
-        <a href="about.html">关于我们</a>
-        <a href="https://qr.dingtalk.com/action/joingroup?code=v1,k1,KlQMYlUzoqLhQNC77XGTSe56HIx+OQyY2kmQpiaFEFmdR7ksupjDEA==&amp;_dt_no_comment=1&amp;origin=11" target="_blank">加入交流群</a>
+        <a href="https://github.com/Redstone-Nebula" target="_blank" data-i18n="footer.github">GitHub</a>
+        <a href="about.html" data-i18n="footer.about">关于我们</a>
+        <a href="https://qr.dingtalk.com/action/joingroup?code=v1,k1,KlQMYlUzoqLhQNC77XGTSe56HIx+OQyY2kmQpiaFEFmdR7ksupjDEA==&amp;_dt_no_comment=1&amp;origin=11" target="_blank" data-i18n="footer.joinGroup">加入交流群</a>
       </div>
       <div class="footer-divider"></div>
-      <p class="footer-copy">&copy; 2026 红石星云. All rights reserved.</p>
+      <p class="footer-copy" data-i18n="footer.copyright">&copy; 2026 红石星云. All rights reserved.</p>
     </div>
   </footer>
 
   <script src="../js/script.js"></script>
+  <script src="../js/i18n-dict.js"></script>
+  <script src="../js/i18n.js"></script>
 </body>
 </html>
